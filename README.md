@@ -1,0 +1,2 @@
+# nuxt-babel-module
+
