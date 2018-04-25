@@ -13,7 +13,7 @@ describe('nuxt-babel', () => {
   let bound
 
   beforeEach(() => {
-    context = {options: {build: {}}}
+    context = { options: { build: {} } }
     bound = nuxtBabelModule.bind(context)
   })
 
@@ -41,6 +41,13 @@ describe('nuxt-babel', () => {
 
   it('without config', () => {
     bound()
+
+    // It will go up and find out own `.babelrc`:
+    expect(context.options.build.babel.presets[0][0]).toEqual('env')
+  })
+
+  it('with empty config', () => {
+    bound({})
 
     // It will go up and find out own `.babelrc`:
     expect(context.options.build.babel.presets[0][0]).toEqual('env')

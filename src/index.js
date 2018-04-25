@@ -7,12 +7,14 @@
 
 'use strict'
 
-const fs = require('fs')
-
 const findBabelConfig = require('find-babel-config')
 
 function nuxtBabel (options) {
-  const directory = options ? options.directory : process.cwd()
+  if (!options) {
+    options = {}
+  }
+
+  const directory = options.directory || process.cwd()
   const { file, config } = findBabelConfig.sync(directory)
 
   if (file) {
