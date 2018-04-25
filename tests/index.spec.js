@@ -2,7 +2,7 @@
 
 const path = require('path')
 
-const nuxtBabelModule = require('..')
+const nuxtBabelModule = require('../src')
 
 function resolveFixture (relativePath) {
   return path.resolve(__dirname, 'fixtures', relativePath)

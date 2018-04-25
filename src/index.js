@@ -22,4 +22,4 @@ function nuxtBabel (options) {
 }
 
 module.exports = nuxtBabel
-module.exports.meta = require('./package.json')
+module.exports.meta = require('../package.json')
