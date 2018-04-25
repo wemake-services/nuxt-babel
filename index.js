@@ -11,17 +11,15 @@ const fs = require('fs')
 
 const findBabelConfig = require('find-babel-config')
 
-function nuxtBabelModule (options) {
+function nuxtBabel (options) {
   const directory = options.directory || process.cwd()
-  const { file } = findBabelConfig.sync(directory)
+  const { file, config } = findBabelConfig.sync(directory)
 
   if (file) {
-    const fileContents = JSON.parse(fs.readFileSync(file))
-
     // See: https://nuxtjs.org/api/configuration-build/#babel
-    this.options.build.babel = fileContents
+    this.options.build.babel = config
   }
 }
 
-module.exports = nuxtBabelModule
+module.exports = nuxtBabel
 module.exports.meta = require('./package.json')
