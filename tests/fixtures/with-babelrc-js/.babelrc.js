@@ -1,3 +1,3 @@
 module.exports = {
-  preset: 'env'
+  presets: 'env'
 }

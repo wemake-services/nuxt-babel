@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "babel": {
-    "preset": "env"
+    "presets": "env"
   }
 }
