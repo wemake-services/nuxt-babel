@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run compile",
-    "compile": "babel index.js --out-dir lib",
+    "compile": "babel src --out-dir lib",
     "lint": "eslint --ignore-path .gitignore .",
     "test": "jest --coverage",
     "coveralls": "npm run test && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
