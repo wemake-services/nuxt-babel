@@ -32,6 +32,11 @@ describe('nuxt-babel', () => {
     expect(context.options.build.babel).toEqual({ presets: 'env' })
   })
 
+  it('with babel.config.js', () => {
+    bound({ directory: resolveFixture('with-babel-config-js') })
+    expect(context.options.build.babel).toEqual({ presets: 'env' })
+  })
+
   it('without babel files', () => {
     bound({ directory: resolveFixture('without') })
 

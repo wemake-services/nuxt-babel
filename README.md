@@ -5,12 +5,18 @@
 
 This plugin allows to have normal `.babelrc` file with your `nuxt` app!
 
-While traditional `nuxt` app [requires](https://nuxtjs.org/api/configuration-build/#babel) that you specify all your `babel`
-configuration inside the `nuxt.config.js`, some other tools (like `jest`) require [the traditional approach](https://babeljs.io/docs/usage/babelrc/) with `.babelrc`.
+While traditional `nuxt` app
+[requires](https://nuxtjs.org/api/configuration-build/#babel)
+that you specify all your `babel`
+configuration inside the `nuxt.config.js`,
+some other tools (like `jest`)
+require [the traditional approach](https://babeljs.io/docs/usage/babelrc/)
+with `.babelrc`.
 
-This plugin gracefully injects your `.babelrc` into your `nuxt` configuration allowing you to have the best from both worlds.
+This plugin gracefully injects your `.babelrc` into your `nuxt` configuration
+allowing you to have the best from both worlds.
 
-We also support `package.json` and `.babelrc.js` files.
+We also support `.babelrc.js`, `babel.config.js`, and `package.json` files.
 
 
 ## Installation

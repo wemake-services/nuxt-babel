@@ -1,6 +1,6 @@
 {
   "name": "nuxt-babel",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "This plugin allows to have normal .babelrc file with your Nuxt app",
   "main": "lib/index.js",
   "scripts": {
