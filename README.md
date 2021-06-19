@@ -1,5 +1,7 @@
 # nuxt-babel
 
+**Deprecated: Nuxt now [supports](https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-build#babel) `babelrc` natively**
+
 [![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](http://wemake.services) [![Build Status](https://travis-ci.org/wemake-services/nuxt-babel.svg?branch=master)](https://travis-ci.org/wemake-services/nuxt-babel) [![Coverage Status](https://coveralls.io/repos/github/wemake-services/nuxt-babel/badge.svg?branch=master)](https://coveralls.io/github/wemake-services/nuxt-babel?branch=master)
 
 
